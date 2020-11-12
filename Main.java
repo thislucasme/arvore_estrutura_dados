@@ -14,13 +14,23 @@ public class Main {
 		TreeKnot.showTreePreOrdem(knot15);
 		System.out.println();
 		
+		//saída
+		//15 10 50 20 
+		
 		System.out.println("Em-ordem");
 		TreeKnot.showTreeEmOrdem(knot15);
 		System.out.println();
 		
+		//saída
+		//10 15 20 50 
+		
 		System.out.println("Pos-ordem");
 		TreeKnot.showTreePosOrdem(knot15);
 		System.out.println();
+		
+		//saída
+		//10 20 50 15 
+
 		
 
 
